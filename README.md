@@ -1,2 +1,2 @@
-# pozor
+# POZOOOOR
 НЕ РАБОТАЕТ UPDATE И DELETE
