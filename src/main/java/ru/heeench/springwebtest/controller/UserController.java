@@ -45,7 +45,7 @@ public class UserController {
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @PutMapping(value = "/clients/{id}")
+    @PutMapping(value = "/users/{id}")
     public ResponseEntity<?> update(@PathVariable(name = "id") long id, @RequestBody User user) {
         final boolean updated = userService.update(user, id);
 
@@ -54,7 +54,7 @@ public class UserController {
                 : new ResponseEntity<>(HttpStatus.NOT_MODIFIED);
     }
 
-    @DeleteMapping(value = "/clients/{id}")
+    @DeleteMapping(value = "/users/{id}")
     public ResponseEntity<?> delete(@PathVariable(name = "id") long id) {
         final boolean deleted = userService.delete(id);
 
