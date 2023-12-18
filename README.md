@@ -1,2 +1,2 @@
-# POZOOOOR
-НЕ РАБОТАЕТ UPDATE И DELETE
+# Rest API, PostrgeSQL, Spring
+
