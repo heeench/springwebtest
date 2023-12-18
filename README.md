@@ -1,2 +1,2 @@
 # pozor
-НЕ РАБОТАЕТ UPDATE И DELETE
+все работает
