@@ -5,14 +5,11 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column(name = "name")
     private String name;
-    @Column(name = "role")
     private String role;
 
     public long getId() { return id; }

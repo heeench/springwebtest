@@ -1,5 +1,6 @@
 package ru.heeench.springwebtest.service;
 
+import org.springframework.web.bind.annotation.*;
 import ru.heeench.springwebtest.model.User;
 
 import java.util.List;
@@ -11,7 +12,7 @@ public interface UserService {
     List<User> readAll();
 
     User read(long id);
-    
+
     boolean update(User user, long id);
 
     boolean delete(long id);
